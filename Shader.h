@@ -12,7 +12,7 @@ class Shader
 {
 public:
 	// program ID
-	unsigned int id;
+	unsigned int id; // ID Reference to shader program containing defined vertex and fragment shaders
 
 	// Constructor (reads and builds shader)
 	Shader(const char* vertex_path, const char* fragment_path);
